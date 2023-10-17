@@ -1,6 +1,6 @@
 ## Rethinking Negative Pairs in Code Search
 
-This repo contains code for Rethinking Negative Pairs in Code Search, accepted to EMNLP 2023. 
+This repo contains code for [Rethinking Negative Pairs in Code Search](https://arxiv.org/abs/2310.08069), accepted to EMNLP 2023. 
 In this codebase we provide instructions for reproducing our results from the paper. 
 We hope that this work can be useful for future research on contrastive learning of code search.
 
@@ -161,6 +161,17 @@ For false negative cancellation methods:
 --ratio
 ```
 Note that you should use ``--infonce`` at the same time.
+
+## Citation
+If you found this repository useful, please consider citing:
+```
+@article{li2023rethinking,
+  title={Rethinking Negative Pairs in Code Search},
+  author={Li, Haochen and Zhou, Xin and Tuan, Luu Anh and Miao, Chunyan},
+  journal={arXiv preprint arXiv:2310.08069},
+  year={2023}
+}
+```
 
 ## Acknowledgement
 
